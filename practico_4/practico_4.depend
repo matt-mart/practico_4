@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1566570283 source:/home/tecnologo/Escritorio/EDA_2019/practico_4/main.cpp
+	<iostream>
+	"./lib/intercambiar.hpp"
+	"./lib/mostrar_arreglo.hpp"
+	"./lib/comparar_iterativo.hpp"
+	"./lib/ocurrencias_iterativo.hpp"
+	"./lib/invertir_iterativo.hpp"
+	"./lib/invertir_recursivo.hpp"
+	"./lib/minimo_iterativo.hpp"
+	"./lib/maximo_iterativo.hpp"
+	"./lib/total_iterativo.hpp"
+	"./lib/total_recursivo.hpp"
+
+1566569157 /home/tecnologo/Escritorio/EDA_2019/practico_4/lib/intercambiar.hpp
+
+1566557611 /home/tecnologo/Escritorio/EDA_2019/practico_4/lib/mostrar_arreglo.hpp
+
+1566569556 /home/tecnologo/Escritorio/EDA_2019/practico_4/lib/comparar_iterativo.hpp
+
+1566569619 /home/tecnologo/Escritorio/EDA_2019/practico_4/lib/ocurrencias_iterativo.hpp
+
+1566569645 /home/tecnologo/Escritorio/EDA_2019/practico_4/lib/invertir_iterativo.hpp
+
+1566570118 /home/tecnologo/Escritorio/EDA_2019/practico_4/lib/invertir_recursivo.hpp
+
+1566569340 /home/tecnologo/Escritorio/EDA_2019/practico_4/lib/minimo_iterativo.hpp
+
+1566560082 /home/tecnologo/Escritorio/EDA_2019/practico_4/lib/maximo_iterativo.hpp
+
+1566569714 /home/tecnologo/Escritorio/EDA_2019/practico_4/lib/total_iterativo.hpp
+
+1566569734 /home/tecnologo/Escritorio/EDA_2019/practico_4/lib/total_recursivo.hpp
+
