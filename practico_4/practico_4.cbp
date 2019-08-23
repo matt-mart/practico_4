@@ -32,10 +32,20 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="lib/comparar_arreglo_iterativo.hpp" />
-		<Unit filename="lib/comparar_arreglo_recursivo.hpp" />
+		<Unit filename="lib/comparar_iterativo.hpp" />
+		<Unit filename="lib/comparar_recursivo.hpp" />
+		<Unit filename="lib/intercambiar.hpp" />
+		<Unit filename="lib/invertir_iterativo.hpp" />
+		<Unit filename="lib/invertir_recursivo.hpp" />
+		<Unit filename="lib/maximo_iterativo.hpp" />
+		<Unit filename="lib/maximo_recursivo.hpp" />
+		<Unit filename="lib/minimo_iterativo.hpp" />
+		<Unit filename="lib/minimo_recursivo.hpp" />
+		<Unit filename="lib/mostrar_arreglo.hpp" />
 		<Unit filename="lib/ocurrencias_iterativo.hpp" />
 		<Unit filename="lib/ocurrencias_recursivo.hpp" />
+		<Unit filename="lib/total_iterativo.hpp" />
+		<Unit filename="lib/total_recursiva.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
