@@ -1,31 +1,31 @@
 
-bool Comparar_Arreglo_Recursivo(
-  int arreglo_a[],
-  int arreglo_b[],
-  int largo
+bool Comparar_Recursivo(
+  int _arreglo_a[],
+  int _arreglo_b[],
+  int _largo
 ){
 
   //----------------------------------------------------------//
 
-  largo -= 1;
+  _largo -= 1;
 
   //----------------------------------------------------------//
 
-  if( largo == -1 )
+  if( _largo == -1 )
     return true;
 
   //----------------------------------------------------------//
 
-  if ( arreglo_a[largo] != arreglo_b[largo] )
+  if ( _arreglo_a[_largo] != _arreglo_b[_largo] )
     return false;
 
 
   //----------------------------------------------------------//
 
-  return Comparar_Arreglo_Recursivo(
-    arreglo_a ,
-    arreglo_b,
-    largo
+  return Comparar_Recursivo(
+    _arreglo_a ,
+    _arreglo_b,
+    _largo
   );
 
   //----------------------------------------------------------//

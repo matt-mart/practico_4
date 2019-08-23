@@ -8,14 +8,14 @@ void Invierte_Iterativo (
 
   //----------------------------------------------------------//
 
-  largo /= 2;
+  _largo /= 2;
 
   //----------------------------------------------------------//
 
-  for (  int i=0;  i<largo;  i+=1  )
-    std::swap(
-      (arreglo [i]),
-      (arreglo[largo-1-i])
+  for (  int i=0;  i<_largo;  i+=1  )
+    Intercambiar(
+      &(_arreglo [i]),
+      &(_arreglo[_largo-1-i])
     );
 
   //----------------------------------------------------------//

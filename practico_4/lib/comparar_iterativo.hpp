@@ -7,7 +7,7 @@ bool Comparar_Arreglo_Iterativo(
 
   //----------------------------------------------------------//
 
-  for ( int i=0; i<largo; i+=1 ){
+  for ( int i=0; i<largo; i+=1 )
     if ( arreglo_a[i] != arreglo_b[i] )
       return false;
 

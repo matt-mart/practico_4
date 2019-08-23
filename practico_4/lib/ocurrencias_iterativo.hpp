@@ -13,7 +13,7 @@ int Ocurrencias_Iterativo (
 
   //----------------------------------------------------------//
 
-  for(  int i=0;  i<largo;  i+=1  )
+  for(  int i=0;  i<_largo;  i+=1  )
     if ( _arreglo[ i ] == _valor )
       ocurrencias += 1;
 

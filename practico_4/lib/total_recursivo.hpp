@@ -1,27 +1,28 @@
 
 //------------------------------------------------------------//
 
-void Invertir_Recursivo (
+int Total_Recursivo(
   int _arreglo[],
-  int _largo,
-  int _n = 0
+  int _largo
 ){
 
   //----------------------------------------------------------//
 
-  Intercambiar(
-    &( _arreglo[_n] ),
-    &(_arreglo[_largo-_n-1])
-     );
+  _largo -= 1;
 
   //----------------------------------------------------------//
 
-    if ( _n == _largo/2 )
-      return;
+  if ( _largo == -1 )
+    return 0;
 
   //----------------------------------------------------------//
 
-return Invertir_Recursivo( _arreglo, _largo, _n+1);
+  return Total_Recursivo(
+    _arreglo,
+    _largo
+  ) + _arreglo[ _largo ];
+
+  //----------------------------------------------------------//
 
 }
 
