@@ -1,25 +1,26 @@
 
 //------------------------------------------------------------//
 
-int Ocurrencias_Iterativo (
-  int _arreglo [],
-  int _valor,
+int Suma_Recursivo(
+  int _arreglo[],
   int _largo
 ){
 
   //----------------------------------------------------------//
 
-  int ocurrencias = 0;
+  _largo -= 1;
 
   //----------------------------------------------------------//
 
-  for(  int i=0;  i<largo;  i+=1  )
-    if ( _arreglo[ i ] == _valor )
-      ocurrencias += 1;
+  if ( _largo == -1 )
+    return 0;
 
   //----------------------------------------------------------//
 
-  return ocurrencias;
+  return Suma_Recursivo(
+    _arreglo[],
+    _largo,
+  ) + _arreglo[ _largo ];
 
   //----------------------------------------------------------//
 

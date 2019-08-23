@@ -1,33 +1,36 @@
+
+//------------------------------------------------------------//
+
 int Ocurrencias_Recursivo (
-  int arreglo[],
-  int largo,
-  int valor
+  int _arreglo[],
+  int _largo,
+  int _valor
 ){
 
   //----------------------------------------------------------//
 
-  largo -= 1;
+  _largo -= 1;
 
   //----------------------------------------------------------//
 
-  if ( largo == -1 )
-      return;
+  if ( _largo == -1 )
+      return 0;
 
   //----------------------------------------------------------//
 
-  int ocurrencia = ( arreglo[ largo ] == valor );
+  bool ocurrencia = ( _arreglo[ largo ] == _valor );
 
   //----------------------------------------------------------//
 
-  return ocurrencia
-       + Ocurrencias_Recursivo(
-          arreglo[],
-          largo,
-          valor
-        );
-
+  return
+    Ocurrencias_Recursivo(
+      _arreglo,
+      _largo,
+      _valor
+    ) + ocurrencia;
 
   //----------------------------------------------------------//
 
 }
 
+//------------------------------------------------------------//
