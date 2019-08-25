@@ -32,3 +32,50 @@
 
 1566569734 /home/tecnologo/Escritorio/EDA_2019/practico_4/lib/total_recursivo.hpp
 
+1566747990 source:c:\users\adminpc\desktop\practico_4-master\practico_4\lib\factorial_iterativo.c
+
+1566749763 source:c:\users\adminpc\desktop\practico_4-master\practico_4\main.cpp
+	<iostream>
+	"./lib/intercambiar.hpp"
+	"./lib/mostrar_arreglo.hpp"
+	"./lib/comparar_iterativo.hpp"
+	"./lib/comparar_recursivo.hpp"
+	"./lib/ocurrencias_iterativo.hpp"
+	"./lib/ocurrencias_recursivo.hpp"
+	"./lib/invertir_iterativo.hpp"
+	"./lib/invertir_recursivo.hpp"
+	"./lib/minimo_iterativo.hpp"
+	"./lib/maximo_iterativo.hpp"
+	"./lib/total_iterativo.hpp"
+	"./lib/total_recursivo.hpp"
+	"./lib/factorial_iterativo.hpp"
+	"./lib/factorial_recursivo.hpp"
+
+1566571204 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\intercambiar.hpp
+
+1566571204 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\mostrar_arreglo.hpp
+
+1566571204 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\comparar_iterativo.hpp
+
+1566571204 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\comparar_recursivo.hpp
+
+1566571204 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\ocurrencias_iterativo.hpp
+
+1566748168 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\ocurrencias_recursivo.hpp
+
+1566571204 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\invertir_iterativo.hpp
+
+1566571204 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\invertir_recursivo.hpp
+
+1566747501 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\minimo_iterativo.hpp
+
+1566571204 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\maximo_iterativo.hpp
+
+1566571204 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\total_iterativo.hpp
+
+1566571204 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\total_recursivo.hpp
+
+1566748850 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\factorial_iterativo.hpp
+
+1566750743 c:\users\adminpc\desktop\practico_4-master\practico_4\lib\factorial_recursivo.hpp
+
