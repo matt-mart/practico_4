@@ -2,8 +2,8 @@
 //------------------------------------------------------------//
 
 int Mininimo_Recursivo (
-  int _arreglo [],
-  int _largo,
+  int _arreglo[],
+  int _largo
   ){
 
   //----------------------------------------------------------//
@@ -13,11 +13,11 @@ int Mininimo_Recursivo (
   //----------------------------------------------------------//
 
   if (_largo == -1)
-    return arreglo[0];
+    return _arreglo[0];
 
   //----------------------------------------------------------//
 
-  Menor ( arreglo[largo] , Mininimo_Recursivo(arreglo[largo-1], _largo) );
+  Menor ( _arreglo[_largo] , Mininimo_Recursivo(_arreglo[_largo-1], _largo) );
 }
 
 //------------------------------------------------------------//

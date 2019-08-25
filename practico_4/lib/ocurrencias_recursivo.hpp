@@ -18,7 +18,7 @@ int Ocurrencias_Recursivo (
 
   //----------------------------------------------------------//
 
-  bool ocurrencia = ( _arreglo[ largo ] == _valor );
+  bool ocurrencia = ( _arreglo[ _largo ] == _valor );
 
   //----------------------------------------------------------//
 
