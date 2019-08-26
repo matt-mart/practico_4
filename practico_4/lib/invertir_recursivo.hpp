@@ -16,12 +16,10 @@ void Invertir_Recursivo (
 
   //----------------------------------------------------------//
 
-    if ( _n == _largo/2 )
-      return;
+    if ( _n != _largo/2 )
+      Invertir_Recursivo( _arreglo, _largo, _n+1);
 
   //----------------------------------------------------------//
-
-return Invertir_Recursivo( _arreglo, _largo, _n+1);
 
 }
 

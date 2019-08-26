@@ -1,7 +1,7 @@
 
 //------------------------------------------------------------//
 
-void Invierte_Iterativo (
+void Invertir_Iterativo (
   int _arreglo [],
   int _largo
 ){
